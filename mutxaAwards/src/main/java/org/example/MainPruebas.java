@@ -32,7 +32,7 @@ public class MainPruebas {
 
         //Métodos de premio
         premio.obtenerDetalles();
-        
+
 
     }
 

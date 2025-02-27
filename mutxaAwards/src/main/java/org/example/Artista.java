@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 public class Artista extends MutxaAwards implements AccionesAsistentes{
 
+
+
     private String nombre;
     private ArrayList<Premio> listaPremios;
     private ArrayList<Categoria> categorias;
@@ -107,5 +109,14 @@ public class Artista extends MutxaAwards implements AccionesAsistentes{
                 ", categorias=" + categorias +
                 ", edición=" + edicion +
                 '}');
+    }
+    @Override
+    public String toString() {
+        return "Artista{" +
+                "nombre='" + nombre + '\'' +
+                ", listaPremios=" + listaPremios +
+                ", categorias=" + categorias +
+                ", edicion=" + edicion +
+                '}';
     }
 }
