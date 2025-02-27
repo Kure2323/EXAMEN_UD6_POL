@@ -110,13 +110,5 @@ public class Artista extends MutxaAwards implements AccionesAsistentes{
                 ", edición=" + edicion +
                 '}');
     }
-    @Override
-    public String toString() {
-        return "Artista{" +
-                "nombre='" + nombre + '\'' +
-                ", listaPremios=" + listaPremios +
-                ", categorias=" + categorias +
-                ", edicion=" + edicion +
-                '}';
-    }
+   
 }
