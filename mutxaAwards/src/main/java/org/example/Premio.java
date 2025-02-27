@@ -24,8 +24,8 @@ public class Premio extends MutxaAwards{
         this.categoria = categoria;
     }
 
-    public String getGanador() {
-        return ganador.getNombre();
+    public Artista getGanador() {
+        return ganador;
     }
 
     public void setGanador(Artista ganador) {
@@ -40,4 +40,14 @@ public class Premio extends MutxaAwards{
                 ", edicion=" + edicion +
                 '}');
     }
+
+    @Override
+    public String toString() {
+        return "Premio{" +
+                "categoria=" + categoria +
+                ", ganador=" + ganador +
+                ", edicion=" + edicion +
+                '}';
+    }
+
 }

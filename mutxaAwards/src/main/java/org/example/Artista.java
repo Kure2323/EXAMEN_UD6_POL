@@ -96,7 +96,7 @@ public class Artista extends MutxaAwards implements AccionesAsistentes{
 
     @Override
     public void celebrarPremio(Premio premio) {
-        System.out.println(nombre + " celebra con mucha alegría el premio " + premio.getCategoria() + " que ha ganado " + premio.getGanador());
+        System.out.println(nombre + " celebra con mucha alegría el premio " + premio.getCategoria());
     }
 
     @Override
